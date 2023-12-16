@@ -72,8 +72,10 @@
 
     &__cover,
     &__details {
-      width: 45%;
+      width: 50%;
       max-width: 495px;
+      height: 50%;
+      max-height: 495px;
     }
 
     &__details {
