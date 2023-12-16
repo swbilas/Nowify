@@ -24,14 +24,6 @@
     max-width: 400px;
   }
 
-  .img {
-    object-fit: contain;
-    max-height: 100%;
-    max-width: 100%;
-    height: auto;
-    width: auto;
-  }
-
   &__image {
     box-shadow: 1px 1px 16px -2px rgba(0, 0, 0, .3);
     height: auto;
@@ -80,14 +72,15 @@
       max-width: 495px;
     }
 
+    &__image {
+      height: 100%;
+    }
+
     &__details {
       text-align: left;
     }
   }
   @media only screen and (max-width: 767px) {
-    &--idle {
-      background:#eee;
-    }
     .fa-brands {
       margin-right: 0px;
     }
