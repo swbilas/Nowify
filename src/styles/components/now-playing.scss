@@ -67,10 +67,25 @@
     margin-right: 25px;
   }
 
-  /*
   @media only screen and (min-width: 767px) {
-  */
-  @media only screen and (min-width: 767px) {
+    flex-flow: row nowrap;
+    padding: 10%;
+
+    &__cover,
+    &__details {
+      width: 50%;
+      max-width: 495px;
+    }
+
+    &--idle {
+      background:#eee;
+    }
+
+    &__details {
+      text-align: left;
+    }
+  }
+  @media only screen and (min-width: 300px) {
     flex-flow: row nowrap;
     padding: 10%;
 
