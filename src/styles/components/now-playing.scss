@@ -26,8 +26,6 @@
 
   &__image {
     box-shadow: 1px 1px 16px -2px rgba(0, 0, 0, .3);
-    object-fit: contain;
-    max-height: 100%;
     height: auto;
     max-width: 60vw;
     width: 100%;
@@ -55,11 +53,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* light
-    background: #1DB954;
-    color: #333333;
-    */
-    /* dark */
     background: #333333;
     color: #1DB954;
   }
@@ -87,7 +80,7 @@
       text-align: left;
     }
   }
-  @media only screen and (min-width: 300px) {
+  @media only screen and (max-width: 766px) {
     &--idle {
       background:#eee;
     }
