@@ -86,11 +86,15 @@
       width: auto;
       height: auto;
     }
-/*
+
     &__image {
-      width: 90%;
+      object-fit: contain;
+      max-width: 100%;
+      max-height: 100%;
+      width: auto;
+      height: auto;
     }
-*/
+
     &__details {
       text-align: left;
     }
