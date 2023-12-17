@@ -69,6 +69,7 @@
     width: 100%;
     background: #333333;
     color: #1DB954;
+    opacity: 0.5;
   }
 
   // added
@@ -85,7 +86,7 @@
       max-width: 380px;
       max-height: 380px;
     }
-    &--idle-logo {
+    h1.no_playing__idle-logo {
       width:60%;
       max-width: 380px;
       max-height: 380px;
@@ -95,7 +96,7 @@
       max-width: 270px;
       margin: 0 50px;
     }
-    &--idle-heading {
+    h1.no_playing__idle-heading {
       width: 40%;
       max-width: 270px;
       margin: 0 50px;
