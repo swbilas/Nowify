@@ -10,10 +10,12 @@
   display: flex;
   flex-flow: column nowrap;
   height: 100%;
-  // padding: var(--spacing-l);
+  padding: var(--spacing-l);
   width: 100%;
-  padding: 0;
-  margin: 0;
+
+  // added
+  // padding: 0;
+  // margin: 0;
 
   &__cover,
   &__details {
@@ -28,10 +30,14 @@
 
   &__image {
     box-shadow: 1px 1px 16px -2px rgba(0, 0, 0, .3);
-    height: auto;
-    max-width: 60vw;
+    // height: auto;
+    // max-width: 60vw;
     width: 100%;
+    
+    // added
+    object-fit: fill;
     border-radius: 10px;
+    height: 100%;
   }
 
   &__details {
