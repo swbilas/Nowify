@@ -19,7 +19,7 @@
     </div>
     <div v-else class="now-playing" :class="getNowPlayingClass()">
       <h1 class="now-playing__idle-logo"><i class="fa-brands fa-spotify"></i></h1>
-      <h1 class="now-playing__idle-heading">No music is playing 😔</h1>
+      <h1 class="now-playing__idle-heading">No music is playing...</h1>
     </div>
   </div>
 </template>
