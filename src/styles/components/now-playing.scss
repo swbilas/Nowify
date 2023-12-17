@@ -66,13 +66,14 @@
     justify-content: center;
 
     // added
+    width: 100%;
     background: #333333;
     color: #1DB954;
   }
 
   // added
   .fa-brands {
-    font-size: 250px;
+    font-size: 280px;
   }
 
   @media only screen and (min-width: 767px) {
@@ -84,7 +85,17 @@
       max-width: 380px;
       max-height: 380px;
     }
+    a--idle-logo {
+      width:60%;
+      max-width: 380px;
+      max-height: 380px;
+    }
     &__details {
+      width: 40%;
+      max-width: 270px;
+      margin: 0 50px;
+    }
+    a--idle-heading {
       width: 40%;
       max-width: 270px;
       margin: 0 50px;
