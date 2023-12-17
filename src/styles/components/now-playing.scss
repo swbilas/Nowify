@@ -79,9 +79,11 @@
     flex-flow: row nowrap;
     padding: 0 5%;
 
-    &__cover,
+    &__cover {
+      width:60%;
+      max-width: 495px;
     &__details {
-      width: 50%;
+      width: 40%;
       max-width: 495px;
     }
 
