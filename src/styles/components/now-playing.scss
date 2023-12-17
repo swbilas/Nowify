@@ -77,12 +77,12 @@
 
   @media only screen and (min-width: 767px) {
     flex-flow: row nowrap;
-    padding: 5% 3%;
+    padding: 50px;
 
     &__cover {
       width:60%;
       max-width: 495px;
-      max-height: 432px;
+      max-height: 380px;
     }
     &__details {
       width: 40%;
