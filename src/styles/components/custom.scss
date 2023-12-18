@@ -10,13 +10,19 @@
 //   font-size: 280px;
 // }
 .now-playing {
-  .fa-regular {
-    // font-size: 0.9em;
-    margin-right: 15px;
-  }
+  
   &--idle {
     background: #333333;
-    color: #1DB954;
+    color: #1DB954 !important;
     filter: brightness(0.25);
+  }
+
+  .fa-spotify {
+
+  }
+  
+  .fa-face-frown-open {
+    // font-size: 0.9em;
+    margin-right: 15px;
   }
 }
