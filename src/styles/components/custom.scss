@@ -4,11 +4,6 @@
  * Customized style changes
  *
  */
-//&--idle {
-//  background: #333333;
-//  color: #1DB954;
-//  filter: brightness(0.25);
-//}
 
 // added
 //   .fa-brands {
@@ -18,5 +13,10 @@
   .fa-regular {
     // font-size: 0.9em;
     margin-right: 15px;
+  }
+  &--idle {
+    background: #333333;
+    color: #1DB954;
+    filter: brightness(0.25);
   }
 }
