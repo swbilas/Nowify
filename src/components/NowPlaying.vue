@@ -17,12 +17,15 @@
         <h2 class="now-playing__artists" v-text="getTrackArtists"></h2>
       </div>
     </div>
+
+    /** Original code
     <div v-else class="now-playing" :class="getNowPlayingClass()">
-      
-      // <h1 class="now-playing__idle-heading">No music is playing 😔</h1>
-    // </div>
+       <h1 class="now-playing__idle-heading">No music is playing 😔</h1>
+    </div>
+    **/
     
-    // changed to the following:
+    /** changed to the following: **/
+     <div v-else class="now-playing" :class="getNowPlayingClass()">
         <div class="now-playing__cover">
           <div class="favicon-container">
             <i class="fa-brands fa-spotify"></i>
@@ -30,9 +33,9 @@
         <div class="now-playing__details">
           <h1 class="now-playing__idle-heading"><i class="fa-regular fa-face-frown-open"></i>No music is playing...</h1>
         </div>
-    // end custom
-          
       </div>
+    /** End custom **/
+       
   </div>
 </template>
 
