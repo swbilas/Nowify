@@ -11,12 +11,15 @@
   display: flex;
   flex-flow: column nowrap;
   height: 100%;
-  padding: var(--spacing-l);
+  // padding: var(--spacing-l);
   width: 100%;
+
+  // added
+  padding: 50px;
 
   &__cover,
   &__details {
-    padding: var(--spacing-m);
+    // padding: var(--spacing-m);
     text-align: center;
     width: 100%;
   }
