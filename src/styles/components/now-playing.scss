@@ -15,7 +15,7 @@
   width: 100%;
 
   // added
-  padding: 50px;
+  padding: 25px;
 
   &__cover,
   &__details {
@@ -25,14 +25,17 @@
   }
 
   &__cover {
-    max-width: 400px;
+    // max-width: 400px;
   }
 
   &__image {
     box-shadow: 1px 1px 16px -2px rgba(0, 0, 0, .3);
     height: auto;
-    max-width: 60vw;
+    // max-width: 60vw;
     width: 100%;
+
+    // added
+    padding-bottom: 25px;
   }
 
   &__details {
