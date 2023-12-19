@@ -18,9 +18,18 @@
       </div>
     </div>
     <div v-else class="now-playing" :class="getNowPlayingClass()">
-      <h1 class="now-playing__idle-logo"><i class="fa-brands fa-spotify"></i></h1>
-      <h1 class="now-playing__idle-heading"><i class="fa-regular fa-face-frown-open"></i>No music is playing...</h1>
-    </div>
+      // <h1 class="now-playing__idle-heading">No music is playing 😔</h1>
+    // </div>
+    // changed to the following:
+        <div class="now-playing__cover">
+          <div class="favicon-container">
+            <i class="fa-brands fa-spotify"></i>
+          </div>
+        <div class="now-playing__details">
+          <h1 class="now-playing__idle-heading"><i class="fa-regular fa-face-frown-open"></i>No music is playing...</h1>
+        </div>
+    // end custom
+      </div>
   </div>
 </template>
 
