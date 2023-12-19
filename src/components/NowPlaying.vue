@@ -24,7 +24,11 @@
       
       <!-- Changed to -->
       <div class="now-playing__cover">
-        <img src="<%= BASE_URL %>spotify-logo.png">
+        <img
+          :src="spotify-logo.png"
+          :alt="spotify-logo"
+          class="now-playing__image"
+        />
       </div>
       <div class="now-playing__details">
         <h1 class="now-playing__idle-heading"><i class="fa-regular fa-face-frown-open"></i>No music is playing...</h1>
