@@ -6,10 +6,13 @@
  */
 
 // added
+body {
+  background-color: var(--colour-background-now-playing);
+}
+
 body #app {
   height: 100%;
   width: 100%;
-  background-color: var(--colour-background-now-playing);
 }
 
 .now-playing {
