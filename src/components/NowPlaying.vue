@@ -30,6 +30,7 @@
           <div class="favicon-container">
             <i class="fa-brands fa-spotify"></i>
           </div>
+        </div>
         <div class="now-playing__details">
           <h1 class="now-playing__idle-heading"><i class="fa-regular fa-face-frown-open"></i>No music is playing...</h1>
         </div>
