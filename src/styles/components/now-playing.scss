@@ -76,6 +76,7 @@ body #app {
     background: #333333;
     color: #1DB954;
     height: 100%;
+    filter: brightness(50%);
   }
 
   // added
@@ -117,6 +118,9 @@ body #app {
     &--idle &__cover,
     &--idle &__details {
       width: 50%;
+    }
+    &--idle &__image {
+      box-shadow: none;
     }
   }
 }
