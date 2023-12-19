@@ -10,7 +10,7 @@
   display: flex;
   flex-flow: column nowrap;
   height: 100%;
-  padding: var(--spacing-l);
+  // padding: var(--spacing-l);
   width: 100%;
 
   &__cover,
@@ -29,6 +29,8 @@
     height: auto;
     max-width: 60vw;
     width: 100%;
+
+    // added
     border-radius: 7px;
   }
 
@@ -38,10 +40,16 @@
 
   &__track {
     font-weight: var(--font-weight-heading);
+
+    // added
+    font-size: 2.5em;
   }
 
   &__artists {
     opacity: 0.8;
+
+    // added
+    font-size: 1.875em;
   }
 
   &--active {
@@ -53,6 +61,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    // added
+    background: #333333;
+    color: #1DB954;
+  }
+
+  // added
+
+  .fa-face-frown-open {
+    // font-size: 0.9em;
+    margin-right: 15px;
   }
 
   @media only screen and (min-width: 767px) {
