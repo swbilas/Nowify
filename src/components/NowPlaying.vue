@@ -28,28 +28,14 @@
           <i class="fa-brands fa-spotify autosize"></i>
         </div>
       </div>
-        <div class="now-playing__details">
-          <h1 class="now-playing__idle-heading"><i class="fa-regular fa-face-frown-open"></i>No music is playing...</h1>
-        </div>
-        <!-- End custom -->
+      <div class="now-playing__details">
+        <h1 class="now-playing__idle-heading"><i class="fa-regular fa-face-frown-open"></i>No music is playing...</h1>
+      </div>
+      <!-- End custom -->
       
       </div>
   </div>
 </template>
-
-    <!-- Changed to -->
-     <div v-else class="now-playing" :class="getNowPlayingClass()">
-        <div class="now-playing__cover">
-          <div class="favicon-container">
-            <i class="fa-brands fa-spotify autosize"></i>
-          </div>
-        </div>
-        <div class="now-playing__details">
-          <h1 class="now-playing__idle-heading"><i class="fa-regular fa-face-frown-open"></i>No music is playing...</h1>
-        </div>
-      </div>
-    <!-- End custom -->
-
 
 <script>
 import * as Vibrant from 'node-vibrant'
