@@ -67,15 +67,14 @@
     // filter: brightness(0.25);
   }
 
-//  .favicon-container {
-//    width:100%;
-//    height: 100%;
-//  }
+  .favicon-container {
+    width:100%;
+    height: 100%;
+  }
   .favicon-container .autosize {
-//    display: inline-block;
+    display: inline-block;
     width: 100%;
     height: 100%;
-    color: pink;
   }
 
   .fa-spotify {
@@ -101,7 +100,7 @@
       text-align: left;
 
       // added
-      margin: 0 50px;
+      margin: 0 33px;
     }
   }
 }
