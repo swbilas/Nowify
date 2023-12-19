@@ -89,6 +89,9 @@ body #app {
     flex-flow: row nowrap;
     // padding: 10%;
 
+    // added
+    height: 100%;
+
     &__cover,
     &__details {
       // width: 50%;
