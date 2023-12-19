@@ -84,10 +84,11 @@
     &__cover,
     &__details {
       // width: 50%;
-      max-width: 495px;
+      //max-width: 495px;
 
       // added
       width: 60%;
+      max-width: 490px;
     }
 
     &__details {
@@ -96,6 +97,7 @@
       // added
       padding-left: 0;
       width: 40%;
+      max-width: 320px;
     }
   }
 }
