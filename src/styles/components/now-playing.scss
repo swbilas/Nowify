@@ -5,8 +5,17 @@
  *
  */
 
-.now-playing {
+body {
   background-color: var(--colour-background-now-playing);
+}
+
+#app {
+  max-width: 1024pxx;
+  margin: 0 auto;
+}
+
+.now-playing {
+  // background-color: var(--colour-background-now-playing);
   color: var(--color-text-primary);
   display: flex;
   flex-flow: column nowrap;
