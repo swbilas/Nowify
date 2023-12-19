@@ -15,7 +15,7 @@ body {
 }
 
 .now-playing {
-  // background-color: var(--colour-background-now-playing);
+  background-color: var(--colour-background-now-playing);
   color: var(--color-text-primary);
   display: flex;
   flex-flow: column nowrap;
@@ -25,7 +25,7 @@ body {
 
   // added
   flex-flow: wrap;
-  align-content: start;
+  // align-content: start;
 
   &__cover,
   &__details {
