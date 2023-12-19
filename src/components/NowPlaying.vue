@@ -24,9 +24,7 @@
       
       <!-- Changed to -->
       <div class="now-playing__cover">
-        <div class="favicon-container">
-          <i class="fa-brands fa-spotify autosize"></i>
-        </div>
+        <img src="<%= BASE_URL %>spotify-logo.png">
       </div>
       <div class="now-playing__details">
         <h1 class="now-playing__idle-heading"><i class="fa-regular fa-face-frown-open"></i>No music is playing...</h1>
