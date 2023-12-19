@@ -53,14 +53,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  }
 
-  // Custom starts here
-
-  &--idle {
+    // added
     background: #333333;
     color: #1DB954;
-//    filter: brightness(0.25);
+    // filter: brightness(0.25);
   }
 
 //  .favicon-container {
@@ -68,9 +65,9 @@
 //    height: 100%;
 //  }
   .favicon-container .autosize {
-    display: inline-block;
-    width: 100%;
-    height: 100%;
+//    display: inline-block;
+ //   width: 100%;
+  //  height: 100%;
   }
 
   .fa-spotify {
