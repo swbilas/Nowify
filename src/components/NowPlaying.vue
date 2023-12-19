@@ -18,13 +18,13 @@
       </div>
     </div>
 
-    /** Original code
-    * <div v-else class="now-playing" :class="getNowPlayingClass()">
-    *    <h1 class="now-playing__idle-heading">No music is playing 😔</h1>
-    * </div>
-    **/
+    <!-- Original code
+    <div v-else class="now-playing" :class="getNowPlayingClass()">
+       <h1 class="now-playing__idle-heading">No music is playing 😔</h1>
+    </div>
+    -->
     
-    /** changed to the following: **/
+    <!-- Changed to -->
      <div v-else class="now-playing" :class="getNowPlayingClass()">
         <div class="now-playing__cover">
           <div class="favicon-container">
@@ -34,7 +34,7 @@
           <h1 class="now-playing__idle-heading"><i class="fa-regular fa-face-frown-open"></i>No music is playing...</h1>
         </div>
       </div>
-    /** End custom **/
+    <!-- End custom -->
        
   </div>
 </template>
