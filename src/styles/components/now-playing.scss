@@ -6,9 +6,9 @@
  */
 
 // added
-body, html {
+body {
   // background-color: var(--colour-background-now-playing);
-  background-color: #333;
+  background-color: #333 !important;
 }
 
 body #app {
