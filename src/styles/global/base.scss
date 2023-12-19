@@ -15,6 +15,9 @@ html, body {
   text-size-adjust: 100%;
   width: 100%;
   line-height: var(--body-line-height);
+
+  // added
+  background-color: var(--colour-background-now-playing);
 }
 
 #app {
