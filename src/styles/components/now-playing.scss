@@ -4,6 +4,12 @@
  * Styles for the 'Now Playing' screen.
  *
  */
+
+// added
+#app {
+  height: 100%;
+}
+
 .now-playing {
   background-color: var(--colour-background-now-playing);
   color: var(--color-text-primary);
