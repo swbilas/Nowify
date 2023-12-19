@@ -28,7 +28,7 @@
      <div v-else class="now-playing" :class="getNowPlayingClass()">
         <div class="now-playing__cover">
           <div class="favicon-container">
-            <i class="fa-brands fa-spotify"></i>
+            <i class="fa-brands fa-spotify autosize"></i>
           </div>
         </div>
         <div class="now-playing__details">
