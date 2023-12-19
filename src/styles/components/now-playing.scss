@@ -87,6 +87,9 @@ body #app {
     font-size: 0.8em;
     margin-right: 15px;
   }
+  &--idle &__image {
+   box-shadow: none;
+  }
 
   @media only screen and (min-width: 767px) {
     flex-flow: row nowrap;
@@ -118,9 +121,6 @@ body #app {
     &--idle &__cover,
     &--idle &__details {
       width: 50%;
-    }
-    &--idle &__image {
-      box-shadow: none;
     }
   }
 }
