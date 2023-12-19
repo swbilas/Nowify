@@ -80,7 +80,7 @@ body #app {
 
   // added
   .fa-spotify {
-    font-size: 350px;
+    font-size: 250px;
   }
   .fa-face-frown-open {
     font-size: 0.8em;
@@ -112,14 +112,6 @@ body #app {
       padding-top: 50px;
       width: 40%;
       max-width: 516px;
-    }
-
-    // added
-    &--idle {
-      &__cover,
-      &__details {
-        width: 50%;
-      }
     }
   }
 }
