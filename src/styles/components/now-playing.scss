@@ -15,7 +15,8 @@
   width: 100%;
 
   // added
-  
+  flex-flow: wrap;
+  align-content: start;
 
   &__cover,
   &__details {
