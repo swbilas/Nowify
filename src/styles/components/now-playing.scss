@@ -25,7 +25,8 @@
   }
 
   &__cover {
-    // max-width: 400px;
+    max-width: 390px;
+    padding: 45px;
   }
 
   &__image {
@@ -35,14 +36,13 @@
     width: 100%;
 
     // added
-    margin: 45px;
     border-radius: 7px;
     
   }
 
   &__details {
     text-align: center;
-    margin: 0 45px;
+    padding: 45px 45px 45px 0;
   }
 
   &__track {
@@ -100,15 +100,24 @@
 
     &__cover,
     &__details {
-      width: 50%;
-      max-width: 495px;
+      // width: 50%;
+      // max-width: 495px;
+
+      // added
+      max-width: 422px;
     }
 
     &__details {
       text-align: left;
 
       // added
-      margin: 0 45px 0 0;
+      width: 40%;
     }
+    
+    // added
+    &__cover {
+      width: 60%;
+    }
+      
   }
 }
