@@ -15,7 +15,7 @@
   width: 100%;
 
   // added
-  padding: 45px;
+  
 
   &__cover,
   &__details {
@@ -35,13 +35,14 @@
     width: 100%;
 
     // added
-    margin-bottom: 45px;
+    margin: 45px;
     border-radius: 7px;
     
   }
 
   &__details {
     text-align: center;
+    margin: 0 45px;
   }
 
   &__track {
@@ -107,7 +108,7 @@
       text-align: left;
 
       // added
-      margin: 0 0 0 45px;
+      margin: 0 45px 0 0;
     }
   }
 }
