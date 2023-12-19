@@ -18,8 +18,10 @@
       </div>
     </div>
     <div v-else class="now-playing" :class="getNowPlayingClass()">
+      
       // <h1 class="now-playing__idle-heading">No music is playing 😔</h1>
     // </div>
+    
     // changed to the following:
         <div class="now-playing__cover">
           <div class="favicon-container">
@@ -29,6 +31,7 @@
           <h1 class="now-playing__idle-heading"><i class="fa-regular fa-face-frown-open"></i>No music is playing...</h1>
         </div>
     // end custom
+          
       </div>
   </div>
 </template>
