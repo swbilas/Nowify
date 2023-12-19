@@ -114,8 +114,9 @@ body #app {
       max-width: 516px;
     }
 
-    &--idle &__cover {
-      color: pink;
+    &--idle &__cover,
+    &--idle &__details {
+      width: 50%;
     }
   }
 }
