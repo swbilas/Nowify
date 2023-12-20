@@ -13,10 +13,10 @@
         />
       </div>
       <div class="now-playing__details">
-        <h1 class="now-playing__track" v-text="player.trackTitle"></h1>
-        <h2 class="now-playing__artists" v-text="getTrackArtists"></h2>
+        <h1 class="now-playing__track" v-text="player.trackTitle"><i class="fa-solid fa-music"></i></h1>
+        <h2 class="now-playing__artists" v-text="getTrackArtists"><i class="fa-regular fa-user"></i></h2>
         <!-- Added -->
-        <h3 class="now-playing__album" v-text="player.trackAlbum.title"></h3>
+        <h3 class="now-playing__album" v-text="player.trackAlbum.title"><i class="fa-solid fa-compact-disc"></i></h3>
         <!-- End custom -->
       </div>
     </div>
@@ -30,7 +30,7 @@
         <i class="fa-brands fa-spotify"></i>
       </div>
       <div class="now-playing__details">
-        <h1 class="now-playing__idle-heading"><i class="fa-regular fa-face-frown-open"></i>No music is playing...</h1>
+        <h1 class="now-playing__idle-heading"><i class="fa-regular fa-face-tired"></i>No music is playing...</h1>
       </div>
       <!-- End custom -->
       
