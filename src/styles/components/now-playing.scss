@@ -101,8 +101,12 @@ body #app {
   
   .fa-music,
   .fa-user,
-  i.fa-solid.fa-compact-disc {
+  .fa-compact-disc {
     margin-right: 15px;
+  }
+
+  &__album i {
+    color: pink;
   }
   
   &--idle &__image {
