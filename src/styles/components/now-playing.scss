@@ -80,14 +80,21 @@ body #app {
   }
 
   // added
+
+  &__album {
+    opacity: 0.8;
+  }
+  
   .fa-spotify {
     font-size: 250px;
     text-align: center;
   }
+  
   .fa-face-frown-open {
     font-size: 0.8em;
     margin-right: 15px;
   }
+  
   &--idle &__image {
    box-shadow: none;
   }
