@@ -48,14 +48,14 @@ body #app {
     padding-top: 0;
   }
 
-  &__track {
+  &__track, .fa-music {
     font-weight: var(--font-weight-heading);
 
     // added
     font-size: 2.5em;
   }
 
-  &__artists {
+  &__artists, .fa-user {
     opacity: 0.8;
 
     // added
@@ -81,7 +81,7 @@ body #app {
 
   // added
 
-  &__album {
+  &__album, .fa-compact-disc {
     opacity: 0.8;
     font-size: 1.4625em;
   }
