@@ -83,17 +83,23 @@ body #app {
 
   &__album {
     opacity: 0.8;
+    font-size: 1.4625em;
   }
   
   .fa-spotify {
     font-size: 250px;
     text-align: center;
   }
-  
-  .fa-face-frown-open {
+
+  .fa-face-sad-tear,
+  .fa-face-frown-open,
+  .fa-face-tired,
+  .fa-face-angry {
     font-size: 0.8em;
     margin-right: 15px;
   }
+
+  .fa-
   
   &--idle &__image {
    box-shadow: none;
