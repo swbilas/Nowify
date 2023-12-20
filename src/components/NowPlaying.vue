@@ -20,8 +20,8 @@
         
         <!-- Changed to -->
         <h1 class="now-playing__track" v-html="'<i class=\'fa-solid fa-music\'></i>' + player.trackTitle"></h1>
-        <h2 class="now-playing__artists" v-html="'<i class=&quot;fa-regular fa-user&quot;></i>' + getTrackArtists"></h2>
-        <h3 class="now-playing__album" v-html="'<i class=&quot;fa-solid fa-compact-disc&quot;></i>' + player.trackAlbum.title"></h3>
+        <h2 class="now-playing__artists" v-html="'<i class=\'fa-regular fa-user\'></i>' + getTrackArtists"></h2>
+        <h3 class="now-playing__album" v-html="'<i class=\'fa-solid fa-compact-disc\'></i>' + player.trackAlbum.title"></h3>
         <!-- End custom -->
         
       </div>
