@@ -18,13 +18,12 @@
         <h2 class="now-playing__artists" v-text="getTrackArtists"></h2>
         -->
 
-        <!-- Test -->
-        <ul class="fa-ul">
-          <li><span class="fa-li"><i class="fas fa-solid fa-music"></i></span><h1 class="now-playing__track" v-text="player.trackTitle"></h1></li>
-          <li><span class="fa-li"><i class="fas fa-solid fa-user"></i></span><h2 class="now-playing__artists" v-text="getTrackArtists"></h2></li>
-          <li><span class="fa-li"><i class="fas fa-solid fa-compact-disc"></i></span><h3 class="now-playing__album" v-text="player.trackAlbum.title"></h3></li>
-        </ul>
-        
+        <!-- Changed to -->
+        <h1 class="now-playing__track" v-text="player.trackTitle"></h1>
+        <h2 class="now-playing__artists" v-text="getTrackArtists"></h2>
+        <h3 class="now-playing__album" v-text="player.trackAlbum.title"></h3>
+        <!-- End custom -->
+                
         <!-- Changed to
         <h1 class="now-playing__track" v-html="'<i class=\'fa-solid fa-music\'></i>' + player.trackTitle"></h1>
         <h2 class="now-playing__artists" v-html="'<i class=\'fa-solid fa-user\'></i>' + getTrackArtists"></h2>
