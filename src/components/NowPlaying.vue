@@ -21,7 +21,7 @@
         
         <h2 class="now-playing__artists" v-text="getTrackArtists"></h2>
 
-        <!-- Test -->
+        <!-- Test
         <div class="flex-row">
           <i class="fa-solid fa-music"></i><h1 class="now-playing__track" v-text="player.trackTitle"></h1>
         </div>
@@ -31,7 +31,7 @@
         <div class="flex-row">
           <i class="fa-solid fa-user"></i><h2 class="now-playing__artist" v-text="getTrackArtists"></h2>
         </div>
-        <!-- End -->
+        End -->
         
       </div>
     </div>
