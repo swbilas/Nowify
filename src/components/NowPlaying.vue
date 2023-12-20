@@ -20,7 +20,7 @@
 
         <!-- test -->
         <h1 class="now-playing__track" v-text="player.trackTitle"></h1>
-        <h1 class="now-playing__track" v-text="'test' + {player.trackTitle}"></h1>
+        <h1 class="now-playing__track" v-text="'test'+player.trackTitle"></h1>
         
         <!-- Changed to 
         <h1 class="now-playing__track" v-html="<i class=fa-solid fa-music></i> + 'player.trackTitle'"></h1>
