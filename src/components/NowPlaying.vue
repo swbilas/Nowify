@@ -13,7 +13,7 @@
         />
       </div>
       <div class="now-playing__details">
-        <h1 class="now-playing__track" v-text="<i class='fa-solid fa-music'></i>player.trackTitle"></h1>
+        <h1 class="now-playing__track" v-text='<i class="fa-solid fa-music"></i>player.trackTitle'></h1>
         <h2 class="now-playing__artists" v-text="getTrackArtists"><i class="fa-regular fa-user"></i></h2>
         <!-- Added -->
         <h3 class="now-playing__album" v-text="player.trackAlbum.title"><i class="fa-solid fa-compact-disc"></i></h3>
