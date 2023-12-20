@@ -98,11 +98,12 @@ body #app {
     font-size: 0.8em;
     margin-right: 15px;
   }
-
-  .fa-music,
-  .fa-user,
-  .fa-compact-disc {
-    margin-right: 15px;
+  .fa-solid {
+    .fa-music,
+    .fa-user,
+    .fa-compact-disc {
+      margin-right: 15px;
+    }
   }
   
   &--idle &__image {
