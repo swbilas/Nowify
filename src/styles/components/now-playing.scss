@@ -99,7 +99,11 @@ body #app {
     margin-right: 15px;
   }
 
-  .fa-
+  .fa-music,
+  .fa-user,
+  .fa-compact-disc {
+    margin-right: 15px;
+  }
   
   &--idle &__image {
    box-shadow: none;
