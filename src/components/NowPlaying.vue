@@ -14,8 +14,10 @@
       </div>
       <div class="now-playing__details">
         <h1 class="now-playing__track" v-text="player.trackTitle"></h1>
-        <h2 class="now-playing__album" v-text="player.trackAlbum.title"></h2>
         <h2 class="now-playing__artists" v-text="getTrackArtists"></h2>
+        <!-- Added -->
+        <h2 class="now-playing__album" v-text="player.trackAlbum.title"></h2>
+        <!-- End custom -->
       </div>
     </div>
     <div v-else class="now-playing" :class="getNowPlayingClass()">
