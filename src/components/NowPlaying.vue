@@ -23,10 +23,10 @@
 
         <!-- Test -->
         <div class="flex-row">
-          <i class="fa-solid fa-music"></i><h3 class="now-playing__track" v-text="player.trackTitle"></h3>
+          <i class="fa-solid fa-music"></i><h1 class="now-playing__track" v-text="player.trackTitle"></h1>
         </div>
         <div class="flex-row">
-          <i class="fa-solid fa-user"></i><h3 class="now-playing__artist" v-text="getTrackArtists"></h3>
+          <i class="fa-solid fa-user"></i><h2 class="now-playing__artist" v-text="getTrackArtists"></h2>
         </div>
         <div class="flex-row">
           <i class="fa-solid fa-compact-disc"></i><h3 class="now-playing__album" v-text="player.trackAlbum.title"></h3>
