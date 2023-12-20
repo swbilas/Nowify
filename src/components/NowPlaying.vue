@@ -19,9 +19,9 @@
         -->
         
         <!-- Changed to -->
-        <h1 class="now-playing__track" v-text="<i class='fa-solid fa-music'></i>player.trackTitle"></h1>
-        <h2 class="now-playing__artists" v-text="<i class='fa-regular fa-user'></i>getTrackArtists"></h2>
-        <h3 class="now-playing__album" v-text="<i class='fa-solid fa-compact-disc'></i>player.trackAlbum.title"></h3>
+        <h1 class="now-playing__track" v-text="<i class=fa-solid fa-music></i>player.trackTitle"></h1>
+        <h2 class="now-playing__artists" v-text="<i class=fa-regular fa-user></i>getTrackArtists"></h2>
+        <h3 class="now-playing__album" v-text="<i class=fa-solid fa-compact-disc></i>player.trackAlbum.title"></h3>
         <!-- End custom -->
         
       </div>
