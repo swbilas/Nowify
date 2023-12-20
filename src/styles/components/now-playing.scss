@@ -82,6 +82,7 @@ body #app {
   // added
   .fa-spotify {
     font-size: 250px;
+    text-align: center;
   }
   .fa-face-frown-open {
     font-size: 0.8em;
@@ -118,9 +119,15 @@ body #app {
       max-width: 512px;
     }
 
+    // added
     &--idle &__cover,
     &--idle &__details {
       width: 50%;
+    }
+
+    .fa-spotify {
+      font-size: 350px;
+      text-align: right;
     }
   }
 }
