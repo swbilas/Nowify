@@ -17,24 +17,21 @@
         <h1 class="now-playing__track" v-text="player.trackTitle"></h1>
         <h2 class="now-playing__artists" v-text="getTrackArtists"></h2>
         -->
-
-        <!-- Changed to -->
-        <h1 class="now-playing__track" v-text="player.trackTitle"></h1>
-        <h2 class="now-playing__artists" v-text="getTrackArtists"></h2>
+        <!-- Add album title
         <h3 class="now-playing__album" v-text="player.trackAlbum.title"></h3>
-        <!-- End custom -->
+        -->
 
         <!-- Test -->
+        <div class="flex-row">
+          <i class="fa-solid fa-music"></i><h3 class="now-playing__track" v-text="player.trackTitle"></h3>
+        </div>
+        <div class="flex-row">
+          <i class="fa-solid fa-user"></i><h3 class="now-playing__artist" v-text="getTrackArtists"></h3>
+        </div>
         <div class="flex-row">
           <i class="fa-solid fa-compact-disc"></i><h3 class="now-playing__album" v-text="player.trackAlbum.title"></h3>
         </div>
         <!-- End -->
-                
-        <!-- Changed to
-        <h1 class="now-playing__track" v-html="'<i class=\'fa-solid fa-music\'></i>' + player.trackTitle"></h1>
-        <h2 class="now-playing__artists" v-html="'<i class=\'fa-solid fa-user\'></i>' + getTrackArtists"></h2>
-        <h3 class="now-playing__album" v-html="'<i class=\'fa-solid fa-compact-disc\'></i>' + player.trackAlbum.title"></h3>
-        End custom -->
         
       </div>
     </div>
