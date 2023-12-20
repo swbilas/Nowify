@@ -98,8 +98,15 @@ body #app {
     font-size: 0.8em;
     margin-right: 15px;
   }
+
+  .flex-row {
+    display: flex;
+    align-items: center;
+  }
   
-  i.fa-solid.fa-compact-disc {
+  .fa-music,
+  .fa-user,
+  .fa-compact-disc {
     margin-right: 15px;
   }
 
