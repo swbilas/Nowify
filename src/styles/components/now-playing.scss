@@ -86,7 +86,7 @@ body #app {
     font-size: 1.4625em;
   }
   
-  .fa-spotify, .fa-music {
+  .fa-spotify {
     font-size: 250px;
     text-align: center;
   }
@@ -99,8 +99,10 @@ body #app {
     margin-right: 15px;
   }
   
-  .now-playing .fa-music {
-    margin-right: 15px;
+  .fa-music,
+  .fa-user,
+  .fa-compact-disc {
+    
   }
   
   &--idle &__image {
