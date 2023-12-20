@@ -25,7 +25,9 @@
         <!-- End custom -->
 
         <!-- Test -->
-        <i class="fa-solid fa-compact-disc"></i><h3 class="now-playing__album" v-text="player.trackAlbum.title"></h3>
+        <div class="flex-row">
+          <i class="fa-solid fa-compact-disc"></i><h3 class="now-playing__album" v-text="player.trackAlbum.title"></h3>
+        </div>
         <!-- End -->
                 
         <!-- Changed to
