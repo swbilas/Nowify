@@ -26,6 +26,7 @@
 
         <!-- Test -->
         <h3 class="now-playing__album" v-html="'<i class=\'fa-solid fa-compact-disc\'></i>' + player.trackAlbum.title"></h3>
+        <i class="fa-solid fa-compact-disc"></i>
         <!-- End -->
                 
         <!-- Changed to
