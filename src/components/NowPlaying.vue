@@ -23,6 +23,10 @@
         <h2 class="now-playing__artists" v-text="getTrackArtists"></h2>
         <h3 class="now-playing__album" v-text="player.trackAlbum.title"></h3>
         <!-- End custom -->
+
+        <!-- Test -->
+        <h3 class="now-playing__album" v-html="'<i class=\'fa-solid fa-compact-disc\'></i>' + player.trackAlbum.title"></h3>
+        <!-- End -->
                 
         <!-- Changed to
         <h1 class="now-playing__track" v-html="'<i class=\'fa-solid fa-music\'></i>' + player.trackTitle"></h1>
