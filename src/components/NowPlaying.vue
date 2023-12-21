@@ -25,11 +25,9 @@
 
         <!-- Try icons as bullets for list -->
         <ul class="fa-ul">
-            <li><span class="fa-li"><i class="fa-solid fa-music"></i>{{player.trackTitle}}</li>
-          <div class="flex-album">
-            <li><span class="fa-li"><i class="fa-solid fa-compact-disc"></i>{{player.trackAlbum.title"</li>
-          <div class="flex-artists">
-            <li><span class="fa-li"><i class="fa-solid fa-user"></i>{{getTrackArtists}}</li>
+          <li><span class="fa-li"><i class="fa-solid fa-music"></i>{{player.trackTitle}}</li>
+          <li><span class="fa-li"><i class="fa-solid fa-compact-disc"></i>{{player.trackAlbum.title"</li>
+          <li><span class="fa-li"><i class="fa-solid fa-user"></i>{{getTrackArtists}}</li>
         </ul>
         <!-- End custom -->
         
