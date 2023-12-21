@@ -18,10 +18,10 @@
         <h2 class="now-playing__artists" v-text="getTrackArtists"></h2>
         -->
         
-        <!-- Add album title and reorder -->
-        <h2 class="now-playing__artists" v-text="getTrackArtists"></h2>
-        <h3 class="now-playing__album" v-text="player.trackAlbum.title"></h3>
+        <!-- Add album title -->
         <h1 class="now-playing__track" v-text="player.trackTitle"></h1>
+        <h3 class="now-playing__album" v-text="player.trackAlbum.title"></h3>
+        <h2 class="now-playing__artists" v-text="getTrackArtists"></h2>
         <!-- End custom -->
 
         <!-- Flex grid thing with icons
