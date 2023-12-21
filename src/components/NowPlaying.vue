@@ -13,17 +13,13 @@
         />
       </div>
       <div class="now-playing__details">
-        <!-- Removed
         <h1 class="now-playing__track" v-text="player.trackTitle"></h1>
-        -->
-        <!-- Add album title 
+        <!-- Add album title -->
         <h3 class="now-playing__album" v-text="player.trackAlbum.title"></h3>
-        End custom -->
-        <!-- Removed
+        <!-- End custom -->
         <h2 class="now-playing__artists" v-text="getTrackArtists"></h2>
-        -->
 
-        <!-- Try icons as bullets for list -->
+        <!-- Flex grid thing
         <div class="flex-details">
           <div class="flex-track">
             <div class="flex-icon">
@@ -50,7 +46,7 @@
             </div>
           </div>
         </div>
-        <!-- End custom -->
+        End custom -->
         
         <!-- Add icons inline
         <h1 class="now-playing__track"><i class="fa-solid fa-music"></i>{{player.trackTitle}}</h1>
