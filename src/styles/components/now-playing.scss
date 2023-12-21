@@ -116,7 +116,8 @@ body #app {
   }
 
   .flex-icon {
-    width: 60px;
+    width: 100%;
+    max-width: 60px;
   }
 
   .flex-text {
