@@ -111,6 +111,8 @@ body #app {
   .flex-album,
   .flex-artists {
     display: flex;
+    text-align: right;
+    margin-right: 15px;
   }
 
   .flex-icon {
