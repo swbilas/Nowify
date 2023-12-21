@@ -37,7 +37,7 @@
             <h2 class="now-playing__artists"><i class="fa-solid fa-user"></i></h2>
             <h2 class="now-playing__artists" v-text="getTrackArtists"></h2>
           </div>
-        </ul>
+        </div>
         <!-- End custom -->
         
         <!-- Add icons inline
