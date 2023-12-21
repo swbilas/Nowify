@@ -112,21 +112,25 @@ body #app {
   .flex-artists {
     display: flex;
     text-align: right;
-    margin-right: 20px;
   }
 
   .flex-icon {
-    width: 55px;
+    width: 60px;
   }
 
   .flex-text {
     text-align: left;
+    marign-left: 20px;
   }
   
   .fa-music,
   .fa-user,
   .fa-compact-disc {
     margin-right: 15px;
+  }
+
+  .fa-music {
+    padding-top: 9px;
   }
 
   @media only screen and (min-width: 767px) {
