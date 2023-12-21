@@ -28,10 +28,10 @@
           <h1 class="now-playing__track"><i class="fa-solid fa-music"></i>{{player.trackTitle}}</h1>
         </div>
         <div class="flex-row">
-          <h3 class="now-playing__track"><i class="fa-solid fa-compact-disc"></i>{{player.trackAlbum.title}}</h3>
+          <h3 class="now-playing__album"><i class="fa-solid fa-compact-disc"></i>{{player.trackAlbum.title}}</h3>
         </div>
         <div class="flex-row">
-          <h2 class="now-playing__track"><i class="fa-solid fa-user"></i>{{getTrackArtists}}</h2>
+          <h2 class="now-playing__artist"><i class="fa-solid fa-user"></i>{{getTrackArtists}}</h2>
         </div>
         <!-- End -->
         
