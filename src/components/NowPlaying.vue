@@ -24,7 +24,7 @@
         <h1 class="now-playing__track" v-text="player.trackTitle"></h1>
         <!-- End custom -->
 
-        <!-- Flex grid thing
+        <!-- Flex grid thing with icons
         <div class="flex-details">
           <div class="flex-track">
             <div class="flex-icon">
