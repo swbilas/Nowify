@@ -16,9 +16,9 @@
         <!-- Removed
         <h1 class="now-playing__track" v-text="player.trackTitle"></h1>
         -->
-        <!-- Add album title -->
+        <!-- Add album title
         <h3 class="now-playing__album" v-text="player.trackAlbum.title"></h3>
-        <!-- End custom -->
+        End custom -->
         <!-- Removed
         <h2 class="now-playing__artists" v-text="getTrackArtists"></h2>
         -->
