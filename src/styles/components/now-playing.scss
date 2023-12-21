@@ -103,7 +103,8 @@ body #app {
 
   .flex-details {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    flex-flow: column;
   }
   
   .flex-track,
