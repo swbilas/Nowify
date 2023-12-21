@@ -151,6 +151,9 @@ body #app {
       width: 60%;
       max-width: 768px;
     }
+    &__cover {
+      padding-right: 50px;
+    }
 
     &__details {
       text-align: left;
