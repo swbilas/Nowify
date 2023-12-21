@@ -24,7 +24,7 @@
         -->
 
         <!-- Try icons as bullets for list -->
-        <div class="flex-container">
+        <div class="flex-details">
           <div class="flex-track">
             <h1 class="now-playing__track"><i class="fa-solid fa-music"></i></h1>
             <h1 class="now-playing__track" v-text="player.trackTitle"></h1>
