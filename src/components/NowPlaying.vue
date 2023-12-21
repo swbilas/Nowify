@@ -13,14 +13,16 @@
         />
       </div>
       <div class="now-playing__details">
+        <!-- Removed
         <h1 class="now-playing__track" v-text="player.trackTitle"></h1>
-
+        -->
         <!-- Add album title -->
         <h3 class="now-playing__album" v-text="player.trackAlbum.title"></h3>
         <!-- End custom -->
-        
+        <!-- Removed
         <h2 class="now-playing__artists" v-text="getTrackArtists"></h2>
-
+        -->
+        
         <!-- Test -->
         <div class="flex-row">
           <h1 class="now-playing__track"><i class="fa-solid fa-music"></i>{{player.trackTitle}}</h1>
