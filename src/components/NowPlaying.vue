@@ -24,10 +24,19 @@
         -->
 
         <!-- Try icons as bullets for list -->
-        <ul class="fa-ul">
-          <li><span class="fa-li"><i class="fa-solid fa-music"></i>{{player.trackTitle}}</li>
-          <li><span class="fa-li"><i class="fa-solid fa-compact-disc"></i>{{player.trackAlbum.title}}</li>
-          <li><span class="fa-li"><i class="fa-solid fa-user"></i>{{getTrackArtists}}</li>
+        <div class="flex-container">
+          <div class="flex-row">
+            <h1 class="now-playing__track"><i class="fa-solid fa-music"></i></h1>
+            <h1 class="now-playing__track" v-text="player.trackTitle"></h1>
+          </div>
+          <div class="flex-row">
+            <h3 class="now-playing__album"><i class="fa-solid fa-compact-disc"></i></h3>
+            <h3 class="now-playing__album" v-text="player.trackAlbum.title"></h3>
+          </div>
+          <div class="flex-row">
+            <h2 class="now-playing__artists"><i class="fa-solid fa-user"></i></h2>
+            <h2 class="now-playing__artists" v-text="getTrackArtists"></h2>
+          </div>
         </ul>
         <!-- End custom -->
         
