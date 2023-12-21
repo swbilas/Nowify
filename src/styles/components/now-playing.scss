@@ -101,8 +101,12 @@ body #app {
     margin-right: 15px;
   }
 
-  .flex-details {
+  .flex-details,
+  .flex-track,
+  .flex-album,
+  .flex-artists {
     display: flex;
+    width: 100%;
   }
   
   .fa-music,
