@@ -23,21 +23,14 @@
         <h2 class="now-playing__artists" v-text="getTrackArtists"></h2>
         -->
 
-        <!-- Test flex box table-ish -->
-        <div class="flex-details">
-          <div class="flex-track">
-            <h1 class="now-playing__track"><i class="fa-solid fa-music"></i></h1>
-            <h1 class="now-playing__track" v-text="player.trackTitle"></h1>
-          </div>
+        <!-- Try icons as bullets for list -->
+        <ul class="fa-ul">
+            <li><span class="fa-li"><i class="fa-solid fa-music"></i>{{player.trackTitle}}</li>
           <div class="flex-album">
-            <h3 class="now-playing__album"><i class="fa-solid fa-compact-disc"></i></h3>
-            <h3 class="now-playing__album" v-text="player.trackAlbum.title"></h3>
-          </div>
+            <li><span class="fa-li"><i class="fa-solid fa-compact-disc"></i>{{player.trackAlbum.title"</li>
           <div class="flex-artists">
-            <h2 class="now-playing__artists"><i class="fa-solid fa-user"></i></h2>
-            <h2 class="now-playing__artists" v-text="getTrackArtists"></h2>
-           </div>
-        </div>
+            <li><span class="fa-li"><i class="fa-solid fa-user"></i>{{getTrackArtists}}</li>
+        </ul>
         <!-- End custom -->
         
         <!-- Add icons inline
