@@ -112,12 +112,12 @@ body #app {
   .flex-album,
   .flex-artists {
     display: flex;
-    text-align: right;
   }
 
   .flex-icon {
     width: 100%;
     max-width: 60px;
+    text-align: right;
   }
 
   .flex-text {
