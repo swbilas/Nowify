@@ -101,7 +101,7 @@ body #app {
     margin-right: 15px;
   }
 
-  .flex-details{
+  .flex-details {
     display: flex;
     flex-wrap: wrap;
   }
@@ -116,10 +116,6 @@ body #app {
   .fa-user,
   .fa-compact-disc {
     margin-right: 15px;
-  }
-  
-  &--idle &__image {
-   box-shadow: none;
   }
 
   @media only screen and (min-width: 767px) {
