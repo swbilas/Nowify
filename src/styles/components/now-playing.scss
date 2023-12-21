@@ -172,6 +172,13 @@ body #app {
     &--idle &__details {
       width: 50%;
     }
+    &--ide &__cover {
+      padding-right: 33px;
+      text-align: right;
+    }
+    &--idle &__details {
+      padding-left: 33px;
+    }
 
     .fa-spotify {
       font-size: 350px;
