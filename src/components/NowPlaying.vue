@@ -13,13 +13,28 @@
         />
       </div>
       <div class="now-playing__details">
+        <!-- Removed
         <h1 class="now-playing__track" v-text="player.trackTitle"></h1>
-        <!-- Add album title -->
+        -->
+        <!-- Add album title 
         <h3 class="now-playing__album" v-text="player.trackAlbum.title"></h3>
-        <!-- End custom -->
+        End custom -->
+        <!-- Removed
         <h2 class="now-playing__artists" v-text="getTrackArtists"></h2>
+        -->
+
+        <!-- Test flex box table-ish -->
+        <div class="flex-details">
+          <h1 class="now-playing__track"><i class="fa-solid fa-music"></i></h1>
+          <h1 class="now-playing__track" v-text="player.trackTitle"></h1>
+          <h3 class="now-playing__album"><i class="fa-solid fa-compact-disc"></i></h3>
+          <h3 class="now-playing__album" v-text="player.trackAlbum.title"></h3>
+          <h2 class="now-playing__artists"><i class="fa-solid fa-user"></i></h2>
+          <h2 class="now-playing__artists" v-text="getTrackArtists"></h2>
+        </div>
+        <!-- End custom -->
         
-        <!-- Add icons
+        <!-- Add icons inline
         <h1 class="now-playing__track"><i class="fa-solid fa-music"></i>{{player.trackTitle}}</h1>
         <h3 class="now-playing__album"><i class="fa-solid fa-compact-disc"></i>{{player.trackAlbum.title}}</h3>
         <h2 class="now-playing__artist"><i class="fa-solid fa-user"></i>{{getTrackArtists}}</h2>
