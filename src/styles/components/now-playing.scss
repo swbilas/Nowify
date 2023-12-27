@@ -5,8 +5,8 @@
  *
  */
 
-body::-webkit-scrollbar {
-  display: none;
+input {
+  overflow: hidden;
 }
 
 body #app {
