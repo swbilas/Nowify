@@ -8,6 +8,13 @@
 body #app {
   height: 100%;
   width: 100%;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 767px) {
+  body #app {
+    overflow: hidden;
+  }
 }
 
 .now-playing {
@@ -143,10 +150,6 @@ body #app {
 
     // added
     height: 100%;
-
-    body #app {
-      overflow: hidden;
-    }
     
     &__cover,
     &__details {
