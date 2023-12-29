@@ -144,6 +144,10 @@ body #app {
     // added
     height: 100%;
 
+    body #app {
+      overflow: hidden;
+    }
+    
     &__cover,
     &__details {
       // width: 50%;
