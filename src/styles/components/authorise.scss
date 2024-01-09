@@ -14,6 +14,9 @@
   justify-content: center;
   padding: var(--spacing-l);
 
+  /* added */
+  opacity: 0.1;
+
   &__heading {}
   &__copy {
     max-width: 480px;
