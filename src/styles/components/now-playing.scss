@@ -59,7 +59,7 @@ body #app {
     font-weight: var(--font-weight-heading);
 
     // added
-    font-size: 2.5em;
+    font-size: 3em;
     margin: 25px 0;
   }
 
@@ -67,7 +67,7 @@ body #app {
     opacity: 0.8;
 
     // added
-    font-size: 1.875em;
+    font-size: 2.5em;
     font-weight: bold;
   }
 
@@ -153,10 +153,12 @@ body #app {
 
     &__artists,
     &__album {
-      font-size: 2.5em;
+      font-size: 1.875em;
+      // font-size: 2.5em;
     }
     &__track {
-      font-size: 3em;
+      font-size: 2.5em;
+      // font-size: 3em;
     }
     
     &__cover,
