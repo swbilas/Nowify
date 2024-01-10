@@ -190,10 +190,11 @@ body #app {
       width: 50%;
     }
     &--idle &__cover {
+      padding-right: 32px;
       text-align: right;
     }
     &--idle &__details {
-      margin-left: 65px;
+      padding-left: 33px;
     }
 
     .fa-spotify {
