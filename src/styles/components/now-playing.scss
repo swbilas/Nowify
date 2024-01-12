@@ -55,7 +55,8 @@ body #app {
     padding-top: 0;
   }
 
-  &__track {
+  &__track,
+  &__idle-heading {
     font-weight: var(--font-weight-heading);
 
     // added
@@ -156,7 +157,8 @@ body #app {
       font-size: 1.875em;
       // font-size: 2.5em;
     }
-    &__track {
+    &__track,
+    &__idle-heading {
       font-size: 2.5em;
       // font-size: 3em;
     }
@@ -196,9 +198,6 @@ body #app {
     &--idle &__details {
       padding-left: 33px;
     }
-    &--idle &__idle-heading {
-      font-size: 5em;
-    }
     .fa-spotify {
       font-size: 311px;
       text-align: center;
@@ -214,7 +213,8 @@ body #app {
       &__album {
         font-size: 2.5em;
       }
-      &__track {
+      &__track,
+      &__idle-heading {
         font-size: 3em;
       }
     .fa-spotify {
