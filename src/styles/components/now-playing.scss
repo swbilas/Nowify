@@ -159,7 +159,7 @@ body #app {
     &__cover,
     &__details {
       // width: 50%;
-      //max-width: 495px;
+      // max-width: 495px;
 
       // added
       width: 60%;
@@ -191,26 +191,26 @@ body #app {
     &--idle &__details {
       padding-left: 33px;
     }
+    &--idle &__idle-heading {
+      font-size: 3em;
+    }
     .fa-spotify {
       font-size: 311px;
       text-align: center;
     }
-
+    &__artists,
+    &__album {
+      font-size: 2.5em;
+    }
+    &__track {
+      font-size: 3em;
+    }
     .flex-wrap {
       align-items: start;
       align-content: start;
     }
   }
   @media only screen and (min-width: 1024px) {
-      &__artists,
-      &__album {
-        font-size: 2.5em;
-      }
-      &__track {
-        font-size: 3em;
-      }
-    .fa-spotify {
-      font-size: 428px;
-    }
+
   }
 }
