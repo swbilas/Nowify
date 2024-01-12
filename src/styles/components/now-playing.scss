@@ -10,7 +10,7 @@ body #app {
   width: 100%;
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 799px) {
   body #app {
     overflow: hidden;
   }
@@ -144,7 +144,7 @@ body #app {
     padding-top: 7px;
   }
 
-  @media only screen and (min-width: 767px) {
+  @media only screen and (min-width: 799px) {
     flex-flow: row nowrap;
     // padding: 10%;
 
