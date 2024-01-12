@@ -196,7 +196,7 @@ body #app {
     &--idle &__details {
       padding-left: 33px;
     }
-    &--idle-heading {
+    &--idle &__idle-heading {
       font-size: 5em;
     }
     .fa-spotify {
