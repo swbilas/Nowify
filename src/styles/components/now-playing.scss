@@ -137,16 +137,6 @@ body #app {
     text-align: left;
     margin-left: 15px;
   }
-  
-  .fa-music,
-  .fa-user,
-  .fa-compact-disc {
-    margin-right: 15px;
-  }
-
-  .fa-music {
-    padding-top: 7px;
-  }
  
   @media only screen and (min-width: 800px) {
     flex-flow: row nowrap;
@@ -219,7 +209,7 @@ body #app {
         font-size: 3em;
       }
     .fa-spotify {
-      // font-size: 428px;
+      font-size: 428px;
     }
   }
 }
