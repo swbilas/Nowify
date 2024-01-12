@@ -10,10 +10,19 @@ body #app {
   width: 100%;
 }
 
-@media only screen and (min-width: 799px) {
+@media only screen and (min-width: 800px) {
   body #app {
     overflow: hidden;
   }
+}
+@media only screen and (min-width: 1024px) {
+      &__artists,
+    &__album {
+      font-size: 2.5em;
+    }
+    &__track {
+      font-size: 3em;
+    }
 }
 
 .now-playing {
@@ -144,7 +153,7 @@ body #app {
     padding-top: 7px;
   }
 
-  @media only screen and (min-width: 799px) {
+  @media only screen and (min-width: 800px) {
     flex-flow: row nowrap;
     // padding: 10%;
 
