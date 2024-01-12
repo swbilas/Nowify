@@ -71,7 +71,7 @@
         <i class="fa-brands fa-spotify"></i>
       </div>
       <div class="now-playing__details">
-        <h1 class="now-playing__idle-heading"><i class="fa-solid fa-face-tired"></i>No music is playing.</h1>
+        <h1 class="now-playing__idle-heading">No music is playing.<i class="fa-solid fa-face-tired"></i></h1>
       </div>
       <!-- End custom -->
       
