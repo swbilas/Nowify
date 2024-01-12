@@ -15,15 +15,6 @@ body #app {
     overflow: hidden;
   }
 }
-@media only screen and (min-width: 1024px) {
-      &__artists,
-    &__album {
-      font-size: 2.5em;
-    }
-    &__track {
-      font-size: 3em;
-    }
-}
 
 .now-playing {
   background-color: var(--colour-background-now-playing);
@@ -152,7 +143,16 @@ body #app {
   .fa-music {
     padding-top: 7px;
   }
-
+ 
+  @media only screen and (min-width: 1024px) {
+      &__artists,
+      &__album {
+        font-size: 2.5em;
+      }
+      &__track {
+        font-size: 3em;
+      }
+  }
   @media only screen and (min-width: 800px) {
     flex-flow: row nowrap;
     // padding: 10%;
