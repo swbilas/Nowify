@@ -211,6 +211,15 @@ body #app {
     }
   }
   @media only screen and (min-width: 1024px) {
-
+      &__artists,
+      &__album {
+        font-size: 2.5em;
+      }
+      &__track {
+        font-size: 3em;
+      }
+    .fa-spotify {
+      font-size: 428px;
+    }
   }
 }
