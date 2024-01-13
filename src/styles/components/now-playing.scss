@@ -138,6 +138,13 @@ body #app {
     text-align: left;
     margin-left: 15px;
   }
+
+  @media only screen and (max-width: 799px) {
+    .fa-spotify {
+      font-size: 100px;
+      text-align: center;
+    }
+  }
  
   @media only screen and (min-width: 800px) {
     flex-flow: row nowrap;
