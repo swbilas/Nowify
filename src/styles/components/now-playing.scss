@@ -30,6 +30,7 @@ body #app {
     // padding: var(--spacing-m);
     text-align: center;
     width: 100%;
+    
 
     // added
     padding: 65px;
@@ -173,6 +174,7 @@ body #app {
 
       // added
       width: 60%;
+      max-height: 100vh;
       // max-width: 768px;
     }
     &__cover {
