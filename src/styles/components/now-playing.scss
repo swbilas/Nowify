@@ -197,7 +197,11 @@ body #app {
       padding-left: 0;
       padding-top: 65px;
       width: 40%;
-      // max-width: 512px;
+      height: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      align-content: center;
     }
 
     // added
