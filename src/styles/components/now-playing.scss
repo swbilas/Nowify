@@ -185,6 +185,8 @@ body #app {
     &__cover {
       padding-right: 65px;
       height: 100%;
+      align-items: center;
+      display: flex;
     }
 
     &__details {
