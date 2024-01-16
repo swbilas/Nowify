@@ -172,9 +172,9 @@ body #app {
       // max-width: 495px;
 
       // added
-      height: 100%;
       display: flex;
       align-content: center;
+      flex-wrap: wrap;
     }
     &__cover {
       padding-right: 65px;
