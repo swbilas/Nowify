@@ -172,12 +172,13 @@ body #app {
       // max-width: 495px;
 
       // added
-      // width: 60%;
+      height: 100%;
+      display: flex;
+      align-content: center;
     }
     &__cover {
       padding-right: 65px;
       width: 60%;
-      height: 100%;
     }
 
     &__details {
