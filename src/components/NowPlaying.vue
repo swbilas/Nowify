@@ -19,9 +19,11 @@
         -->
         
         <!-- Add album title -->
-        <h2 class="now-playing__artists" v-text="getTrackArtists"></h2>
-        <h1 class="now-playing__track" v-text="player.trackTitle"></h1>
-        <h2 class="now-playing__album" v-text="player.trackAlbum.title"></h2>
+        <div class="flex-contain">
+          <h2 class="now-playing__artists" v-text="getTrackArtists"></h2>
+          <h1 class="now-playing__track" v-text="player.trackTitle"></h1>
+          <h2 class="now-playing__album" v-text="player.trackAlbum.title"></h2>
+        </div>
         <!-- End custom -->
 
         <!-- Flex grid thing with icons
