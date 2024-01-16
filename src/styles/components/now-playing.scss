@@ -172,10 +172,12 @@ body #app {
       // max-width: 495px;
 
       // added
-      width: 60%;
+      // width: 60%;
     }
     &__cover {
       padding-right: 65px;
+      width: 60%;
+      height: 100%;
     }
 
     &__details {
