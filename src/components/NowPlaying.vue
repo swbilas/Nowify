@@ -25,41 +25,6 @@
           <h2 class="now-playing__album" v-text="player.trackAlbum.title"></h2>
         </div>
         <!-- End custom -->
-
-        <!-- Flex grid thing with icons
-        <div class="flex-details">
-          <div class="flex-track">
-            <div class="flex-icon">
-              <h1 class="now-playing__track"><i class="fa-solid fa-music"></i></h1>
-            </div>
-            <div class="flex-text">
-              <h1 class="now-playing__track" v-text="player.trackTitle"></h1>
-            </div>
-          </div>
-          <div class="flex-album">
-            <div class="flex-icon">
-              <h3 class="now-playing__album"><i class="fa-solid fa-compact-disc"></i></h3>
-            </div>
-            <div class="flex-text">
-              <h3 class="now-playing__album" v-text="player.trackAlbum.title"></h3>
-            </div>
-          </div>
-          <div class="flex-artists">
-            <div class="flex-icon">
-              <h2 class="now-playing__artists"><i class="fa-solid fa-user"></i></h2>
-            </div>
-            <div class="flex-text">
-              <h2 class="now-playing__artists" v-text="getTrackArtists"></h2>
-            </div>
-          </div>
-        </div>
-        End custom -->
-        
-        <!-- Add icons inline
-        <h1 class="now-playing__track"><i class="fa-solid fa-music"></i>{{player.trackTitle}}</h1>
-        <h3 class="now-playing__album"><i class="fa-solid fa-compact-disc"></i>{{player.trackAlbum.title}}</h3>
-        <h2 class="now-playing__artist"><i class="fa-solid fa-user"></i>{{getTrackArtists}}</h2>
-        End -->
         
       </div>
     </div>
