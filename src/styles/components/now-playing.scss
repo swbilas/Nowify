@@ -128,17 +128,7 @@ body #app {
   .flex-album,
   .flex-artists {
     display: flex;
-  }
-
-  .flex-icon {
     width: 100%;
-    max-width: 60px;
-    text-align: right;
-  }
-
-  .flex-text {
-    text-align: left;
-    margin-left: 15px;
   }
 
   @media only screen and (max-width: 799px) {
@@ -161,13 +151,9 @@ body #app {
     &__artists,
     &__album {
       font-size: 1.875em;
-      // font-size: 2.5em;
-      width: 100%;
     }
     &__track {
       font-size: 2.5em;
-      // font-size: 3em;
-      width: 100%;
     }
     
     &__cover,
@@ -213,13 +199,6 @@ body #app {
     .fa-spotify {
       font-size: 311px;
       text-align: center;
-    }
-    &__artists,
-    &__album {
-      font-size: 2.5em;
-    }
-    &__track {
-      font-size: 3em;
     }
     .flex-wrap {
       align-items: start;
