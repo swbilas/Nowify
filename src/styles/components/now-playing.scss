@@ -93,6 +93,12 @@ body #app {
 
   // added
 
+  &__artists,
+  &__track,
+  &__album {
+    width: 100%;
+  }
+  
   &__album {
     opacity: 0.8;
     font-size: 1.875em;
@@ -116,19 +122,6 @@ body #app {
   .fa-face-angry {
     font-size: 0.8em;
     margin-left: 15px;
-  }
-
-  .flex-details {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-flow: column;
-  }
-  
-  .flex-track,
-  .flex-album,
-  .flex-artists {
-    display: flex;
-    width: 100%;
   }
 
   @media only screen and (max-width: 799px) {
