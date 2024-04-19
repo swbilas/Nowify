@@ -88,7 +88,7 @@ body #app {
     background: #333333;
     color: #1DB954;
     height: 100%;
-    filter: brightness(25%);
+    // filter: brightness(25%);
   }
 
   // added
@@ -209,9 +209,11 @@ body #app {
       }
     &--idle &__idle-heading {
       font-size: 5em;
+      opacity: 0.1;
     }
     .fa-spotify {
       font-size: 428px;
+      opacity: 0.1;
     }
   }
 }
