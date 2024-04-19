@@ -109,11 +109,13 @@ body #app {
 
   &__idle-heading {
     font-size: 5em;
+    opacity: 0.1;
   }
   
   .fa-spotify {
     font-size: 311px;
     text-align: center;
+    opacity: 0.1;
   }
 
   .fa-face-sad-tear,
@@ -209,11 +211,9 @@ body #app {
       }
     &--idle &__idle-heading {
       font-size: 5em;
-      opacity: 0.1;
     }
     .fa-spotify {
       font-size: 428px;
-      opacity: 0.1;
     }
   }
 }
